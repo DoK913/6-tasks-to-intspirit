@@ -13,7 +13,7 @@ function getResult(t1, t2, tr1, tr2) {
     } 
 
     // проверка на малый приз или поражение
-    if (t1 > t2 && tr1 > tr2) {
+    if (t1 > t2 === tr1 > tr2) {
         return 1;
     }
     
